@@ -1,0 +1,546 @@
+.nav1{
+    display: flex;
+    width: 100%;
+    height: 4vh;
+    /* background-color: blueviolet; */
+
+}
+.nav1-1{
+    width: 30%;
+    height: 4vh;
+    margin-left: 20px;
+    font-size: 10px;
+}
+.nav1-2{
+    width: 70%;
+    height: 4vh;
+    padding-left: 50px;
+    justify-items:end;
+    font-size: 10px;
+    margin-left: 22%;
+
+}
+.nav1-2 select{
+    /* margin-right: 20px; */
+    border: 0px;
+    font-size:9px;
+    text-align: right;
+    padding-left: 10px;
+  
+}
+.nav1-2 a{
+    /* margin-right: 20px; */
+    text-decoration: none;
+    color: black;
+    padding-left:10px;
+    
+}
+#one{
+    border-left: 2px solid black;
+    padding-left: 10px; ;
+}
+.nav2{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    list-style: none;
+    background-color: blueviolet;
+}
+.nav2-1{
+    display: flex;
+    width:20%;
+    height: 10vh;
+    background-color:rgb(14, 128, 71);
+    padding-left: 20px;
+    margin-top: 0px;
+    color:rgb(209, 19, 19)
+}
+.nav2-2{
+    display: flex;
+    width: 50%;
+    height: 10vh;
+    background-color: rgb(86, 4, 133);
+}
+
+.nav2-2 input{
+    font-size: 12px;
+    border:2px solid crimson;
+    float: left;
+    padding-right: 100px;
+    margin-top: 10px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+.nav2-2 input ::placeholder{
+    color: lightgrey;
+}
+.nav2-2 button{
+    margin-top: 10px;
+    font-size: 12px;
+}
+.nav2-3{
+    background-color: rgb(168, 21, 21);
+    width: 30%;
+    display: flex;
+    height: 10vh;
+    margin: 0px;
+}
+ .nav2-3 li{
+    list-style: none; 
+    font-size:10px;
+    margin-left: 5px;
+    margin-top: 3px;
+ }
+
+.side{
+    background-color: rgb(245, 243, 243);
+    width: 100%;
+    height: 80vh;
+    display: flex;
+}
+.one{
+    background-color: white;
+    width: 20%;
+    height: 80vh;
+    margin: 0px 10px;
+}
+.one ul{
+   list-style: none;
+   font-size: 10px;
+}
+.one ul li{
+    font-family:'Times New Roman', Times, serif;
+    color: black;
+}
+.one ul hr{
+    color: lightgray;
+    border: 0.5px solid lightgray;
+    width:95%;
+}
+.two{
+    width: 30%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+.two p{
+    font-size: 12px;
+    /* margin-top: 40px; */
+    margin-left: 40px;
+    
+}
+.two h3{
+    font-size: 32px;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    padding:0pxs;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.two button{
+    width: 30%;
+    height: 45px;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+.three-1{
+    width: 50%;
+    height: 80vh;
+    background-color: rgb(219, 57, 165);
+}
+.three-1 img{
+    width: 100%;
+    height: 80vh;
+}
+.box{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    margin-top: 0%;
+    
+}
+.box-1{
+    width: 20%;
+    height: 10vh;
+    border: 2px solid lightgray;
+    margin: 10px;
+
+}
+.box-1 p{
+    margin-top: 0px;
+    text-align: center;
+    font-size:9px;
+}
+.box-1 b{
+  margin-left: 30px;
+  margin-bottom: 0px;
+  font-size:9px; 
+}
+.box-2{width: 20%;
+    height: 10vh;
+    border: 2px solid lightgray;
+    margin: 10px;
+}
+.box-2 p{
+    margin-top: 0px;
+    text-align: center;
+    font-size:9px;
+}
+.box-2 b{
+  margin-left: 30px;
+  margin-bottom: 0px;
+  font-size:9px;
+}
+.box-3{
+        width: 25%;
+        height: 10vh;
+        border: 2px solid lightgray;
+        margin: 10px;
+}
+.box-3 p{
+        margin-top: 0px;
+        text-align: center;
+        font-size:9px;
+}
+.box-3 b{
+      margin-left: 20px;
+      margin-bottom: 0px;
+      font-size:9px;
+}
+.box-4{
+        width: 20%;
+        height: 10vh;
+        border: 2px solid lightgray;
+        margin: 10px;
+} 
+.box-4 p{
+    margin-top: 0px;
+    text-align: center;
+    font-size:9px;
+}
+.box-4 b{
+  margin-left: 30px;
+  margin-bottom: 0px;
+  font-size:9px;
+}
+.copy{
+    width: 100%;
+    height: 35vh;
+   
+    margin-left:10px;
+    display: flex;
+}
+.copy-1{
+    width: 30%;
+    height: 35vh;
+    
+    margin-left: 20px;
+}
+.copy-1 img{
+    width: 100%;
+    height: 35vh;
+}
+.copy-2{
+    width: 30%;
+    height: 35vh;
+    
+    margin-left: 20px;
+}
+.copy-2 img{
+    width: 100%;
+    height: 35vh;
+}
+.copy-3{
+    width: 30%;
+    height: 35vh;
+   
+    margin-left: 20px;
+}
+.copy-3 img{
+    width: 100%;
+    height: 35vh;
+}
+.Offers{
+    width: 100%;
+    height: 60vh;
+    margin: 1% 0%;
+    /* background-color: rgb(117, 8, 8); */
+    display: flex;
+}
+.Offers-1{
+    width: 45%;
+    height: 60vh;
+    margin: 0% 3% ;
+}
+.Offers-1 img{
+    width: 100%;
+    height: 60vh;
+}
+.Offers-2{
+    width: 45%;
+    height: 60vh;
+    margin-right: 1%;
+}
+.Offers-2 img{
+    width: 100%;
+    height: 60vh;
+}
+.Offers-0{
+    width: 100%;
+    height: 60vh;
+    margin: 1% 0%;
+    /* background-color: rgb(117, 8, 8); */
+    display: flex;
+}
+.Offers-3{
+    width: 45%;
+    height: 60vh;
+    margin: 0% 3% ;
+}
+.Offers-3 img{
+    width: 100%;
+    height: 60vh;
+}
+.Offers-4{
+    width: 45%;
+    height: 60vh;
+    margin-right: 1%;
+}
+.Offers-4 img{
+    width: 100%;
+    height: 60vh;
+}
+.Selling{
+    width: 100%;
+    height: 40vh;
+    /* background-color: rgb(117, 8, 8); */
+    margin: 10px 0%;
+    display: flex;
+}
+.Selling-1{
+    width: 20%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117); */
+    margin: 0px 10px;
+}
+.Selling-1 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+
+.Selling-2{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-2 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Selling-3{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-3 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Selling-4{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-4 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Selling-5{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-5 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Selling-0{
+    width: 100%;
+    height: 40vh;
+    /* background-color: rgb(117, 8, 8); */
+    margin: 10px 0%;
+    display: flex;
+}
+.Selling-11{
+    width: 20%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117); */
+    margin: 0px 10px;
+}
+.Selling-11 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+
+.Selling-12{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-12 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Selling-13{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-13 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Selling-14{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-14 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Selling-15{
+    width: 20%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 10px;
+}
+.Selling-15 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+}
+.Electronics{
+    width: 100%;
+    height: 40vh;
+    margin: 1% 0%;
+    /* background-color: rgb(117, 8, 8); */
+    display: flex;
+}
+.Electronics-1{
+    width: 50%;
+    height: 40vh;
+    margin: 0% 3% ;
+}
+.Electronics-1 img{
+    width: 100%;
+    height: 40vh;
+}
+.Electronics-2{
+    width: 50%;
+    height: 40vh;
+    margin-right: 1%;
+}
+.Electronics-2 img{
+    width: 100%;
+    height: 40vh;
+}
+.New-arrivals{
+    width: 100%;
+    height: 40vh;
+    /* background-color: rgb(117, 8, 8); */
+    display: flex;
+    margin:0px ;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.New-arrivals-1{
+    width: 24%;
+    height: 40vh;
+    background-color: rgb(81, 117, 8);
+    /* margin-right:10px; */
+}
+
+.New-arrivals-1 img{
+    width: 100%;
+    height: 40vh;
+}
+.New-arrivals-2{
+
+    width: 19%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 5px;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.New-arrivals-2 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+ }
+.New-arrivals-3{
+    width: 19%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 5px;
+}.New-arrivals-3 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px;  */
+ }
+.New-arrivals-4{
+    width: 19%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 5px;
+}
+.New-arrivals-4 img{
+    width: 100%;
+    height: 30vh;
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+ } 
+.New-arrivals-5{
+    width: 19%;
+    height: 30vh;
+    background-color: rgb(32, 8, 117);
+    margin: 0px 5px;
+}
+.New-arrivals-5 img{
+    width: 100%;
+    height: 30vh; 
+    /* background-color: rgb(32, 8, 117);
+    margin: 0px 10px; */
+ } 
