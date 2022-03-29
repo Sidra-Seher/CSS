@@ -44,13 +44,13 @@
     width: 100%;
     height: 10vh;
     list-style: none;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 .nav2-1{
     display: flex;
     width:20%;
     height: 10vh;
-    background-color:rgb(14, 128, 71);
+    /* background-color:rgb(14, 128, 71); */
     padding-left: 20px;
     margin-top: 0px;
     color:rgb(209, 19, 19)
@@ -59,7 +59,7 @@
     display: flex;
     width: 50%;
     height: 10vh;
-    background-color: rgb(86, 4, 133);
+    /* background-color: rgb(86, 4, 133); */
 }
 
 .nav2-2 input{
@@ -79,7 +79,7 @@
     font-size: 12px;
 }
 .nav2-3{
-    background-color: rgb(168, 21, 21);
+    /* background-color: rgb(168, 21, 21); */
     width: 30%;
     display: flex;
     height: 10vh;
@@ -87,9 +87,16 @@
 }
  .nav2-3 li{
     list-style: none; 
-    font-size:10px;
-    margin-left: 5px;
-    margin-top: 3px;
+    font-size:9px;
+    margin-left: 7px;
+    margin-top: 9px;
+    height: 5vh;
+    text-align: center;
+ }
+ .fa-heart{
+     color:black ;
+     align-items: center;
+     
  }
 
 .side{
@@ -122,15 +129,34 @@
     height: 80vh;
     display: flex;
     flex-direction: column;
-
     justify-content: center;
 }
-.two p{
+#two-1{
+    margin-top: 150px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 11px;
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+}
+.two h3{
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left:0px;
+    font-family:'Times New Roman', Times, serif;
+}
+#two-2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 11px;
+}
+/* .two p{
     font-size: 12px;
     /* margin-top: 40px; */
-    margin-left: 40px;
+    /* margin-left: 40px; */
     
-}
+/* }
 .two h3{
     font-size: 32px;
     margin-bottom: 0px;
@@ -138,7 +164,7 @@
     padding:0pxs;
     margin-top: 0px;
     margin-bottom: 0px;
-}
+} */ 
 .two button{
     width: 30%;
     height: 45px;
@@ -229,14 +255,14 @@
     width: 100%;
     height: 35vh;
    
-    margin-left:10px;
+    /* margin-left:10px; */
     display: flex;
 }
 .copy-1{
     width: 30%;
     height: 35vh;
     
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 .copy-1 img{
     width: 100%;
@@ -318,12 +344,14 @@
     /* background-color: rgb(117, 8, 8); */
     margin: 10px 0%;
     display: flex;
+    font-size:9px;
 }
 .Selling-1{
     width: 20%;
     height: 30vh;
     /* background-color: rgb(32, 8, 117); */
     margin: 0px 10px;
+    font-size:9px;
 }
 .Selling-1 img{
     width: 100%;
@@ -386,6 +414,7 @@
     /* background-color: rgb(117, 8, 8); */
     margin: 10px 0%;
     display: flex;
+    font-size:9px;
 }
 .Selling-11{
     width: 20%;
