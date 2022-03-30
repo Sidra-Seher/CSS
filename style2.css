@@ -11,14 +11,13 @@ ul{
 }
 .searchbox{
     float: left;
-    margin-right: 350px;
+    margin-right: 300px;
     margin-top: 10px;
 }
 .searchbox input{
     padding: 5px;
     font-size: 17px;
     border:2px solid black;
-   
 
 }
 
